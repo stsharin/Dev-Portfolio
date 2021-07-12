@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './About.css';
+import './Skills.css';
 import { FcFlashOn, FcServices } from "react-icons/fc";
 import { DiHtml5 } from "react-icons/di";
 
-const About = () => {
+const Skills = () => {
 
     const [description] = useState({
         title: 'What I do',
@@ -15,7 +15,7 @@ const About = () => {
     })
 
     return (
-        <div className="about__main" id="about">
+        <div className="about__main" id="skills">
             <div className="container">
                 <div className="about__section">
                     <div className="row">
@@ -52,4 +52,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Skills;
