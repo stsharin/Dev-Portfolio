@@ -7,10 +7,10 @@ const Home = () => {
 
     const [description] = useState(
         {
-            title: "I'm ",
-            name: "Saraban Tasnim Sharin",
-            text: "I'm a professional full-stack web developer with lots of experience in this field. I develop MERN projects. I'm a professional full-stack web developer with lots of experience in this field. I develop MERN projects.",
-            image: "https://i.ibb.co/1mM7b4V/profile1.png"
+            title: "HELLO I'M",
+            name: "SARABAN TASNIM SHARIN",
+            text: "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
+            image: "https://i.ibb.co/yQTV6PS/photo.png"
         })
 
     return (
@@ -18,38 +18,34 @@ const Home = () => {
             <Navbar />
             <div className="header">
                 <div className="container">
-
                     <div className="row">
-
                         <div className="col-md-6">
-
                             <div className="header__content">
-
-                                <h1>{description.title} <span className="text-info">{description.name}</span> </h1>
+                                <h1>{description.title}</h1>
+                                <h1 style={{color: '#997AD7'}}>{description.name}</h1>
                                 <p>{description.text}</p>
-
                                 <div className="header__section">
-
                                     <ul className="header__ul">
-                                        <li><a href="/"><FaFacebookF /></a></li>
-                                        <li><a href="https://www.instagram.com/stsharin/"><FaInstagram /></a></li>
-                                        <li><a href="https://www.linkedin.com/in/saraban-tasnim-sharin/"><FaLinkedin /></a></li>
-                                        <li><a href="https://github.com/stsharin"><FaGithub /></a></li>
-                                        {/* <li><FaTwitter /></li> */}
+                                        <li id="facebook"><a href="/"><FaFacebookF /></a></li>
+                                        <li id="insta"><a href="https://www.instagram.com/stsharin/"><FaInstagram /></a></li>
+                                        <li id="linkedIn"><a href="https://www.linkedin.com/in/saraban-tasnim-sharin/"><FaLinkedin /></a></li>
+                                        <li id="github"><a href="https://github.com/stsharin"><FaGithub /></a></li>
                                     </ul>
 
-                                    {/* <div className="header__buttons">
-                                        <a href="/" className="btn btn-smart">My Portfolio<FaArrowRight className="play" /></a>
-                                    </div> */}
+                                    <div className="header__buttons">
+                                        <a href="/" className="btn btn-smart">My Resume</a>
+                                        &nbsp; &nbsp; &nbsp;
+                                        <a href="/" className="btn btn-smart">Contact Me</a>
+                                    </div>
 
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-md-6">
+                        <div className="col-md-6">
                             <div className="banner__img">
                                 <img src={description.image} alt="me" />
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

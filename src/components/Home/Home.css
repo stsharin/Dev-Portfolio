@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 100vh;
-    background: url('/src/images/bg.png');
+    background: url('/src/images/bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -29,58 +29,104 @@
   .header__ul{
     list-style-type: none;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
-  .header__ul li{
+  /* .header__ul li{
     width: 50px;
     height: 50px;
-    border: 3px solid #6e42c6;
+    border: 2px solid #7c54cb;
     border-radius: 50%;
     display: flex;
     align-items: center; 
-    justify-content: center;  /* horizontally */
+    justify-content: center; 
     margin: 0 15px;
   }
 
   .header__ul li a{
     text-decoration: none;
     color: white;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  #facebook{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    /* margin: 0 15px; */
+    margin-right: 10px;
+    margin-left: 0;
+    background-color: #064291;
   }
 
-  .header__ul li:first-child{
-    margin-left: 0px;
+  #insta{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 15px;
+    background-color: rgb(207, 42, 119);
+  }
+
+  #linkedIn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 15px;
+    background-color: rgb(42, 103, 153);
+  }
+
+  #github{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 15px;
+    background-color: rgb(27, 27, 27);
+  }
+
+  .header__ul li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
   }
   
   .header__content h1{
     font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
   }
   
   .header__content p{
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 300;
     line-height: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    color: #cecccc;
   }
   
   .btn{
     outline: none;
     border: none;
-    color: white;
+    color: rgb(192, 189, 189);
     text-decoration: none;
     margin-top: 20px;
   }
   
-  /* .btn-outline{
-    border: 2px solid #6e42c6;
-    border-radius: 50px;
-    padding:  13px 40px;
-  } */
-  
   .btn-smart{
-    background: #6e42c6;
+    border: 2px solid #6e42c6;
     padding: 13px 20px;
     border-radius: 50px;
   }
@@ -88,4 +134,11 @@
   .play{
     font-size: 18px;
     margin-left: 5px;
+  }
+
+  .banner__img img{
+    height: auto;
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 150px;
   }
