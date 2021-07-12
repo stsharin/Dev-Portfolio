@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import './About.css'
+import './About.css';
+import { FcFlashOn, FcServices } from "react-icons/fc";
+import { DiHtml5 } from "react-icons/di";
 
 const About = () => {
 
@@ -25,10 +27,22 @@ const About = () => {
                         <div className="col-md-6">
                             <div className="about__text">
                                 <h1>{description.title}</h1>
-                                <p>{description.details}</p>
-                                <p>{description.one}</p>
-                                <p>{description.two}</p>
-                                <p>{description.three}</p>
+                                <div className="skill__icons">
+                                    <ul className="skill__ul">
+                                        <li>
+                                            <div className="dev-icon"><DiHtml5 /></div>
+                                            <p>html-5</p>
+                                        </li>
+                                        <li>
+                                            <DiHtml5 />
+                                            <p>html-5</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p className="skill__details">{description.details}</p>
+                                <p className="skill__points"><FcServices /> {description.one}</p>
+                                <p className="skill__points"><FcServices /> {description.two}</p>
+                                <p className="skill__points"><FcServices /> {description.three}</p>
                             </div>
                         </div>
                     </div>

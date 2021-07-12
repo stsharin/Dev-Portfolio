@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: url('/src/images/bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
     width: 100%;
     height: 100vh;
     color: white;
-    margin-top: 35%;
+    margin-top: 30%;
   }
 
   .header__ul{
@@ -31,24 +31,6 @@
     display: flex;
     margin-bottom: 10px;
   }
-  
-  /* .header__ul li{
-    width: 50px;
-    height: 50px;
-    border: 2px solid #7c54cb;
-    border-radius: 50%;
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    margin: 0 15px;
-  }
-
-  .header__ul li a{
-    text-decoration: none;
-    color: white;
-    align-items: center;
-    justify-content: center;
-  } */
 
   #facebook{
     width: 50px;
@@ -104,17 +86,18 @@
   }
   
   .header__content h1{
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 50px;
+    /* font-weight: 600; */
     margin-bottom: 20px;
+    line-height: 1.1;
   }
   
   .header__content p{
-    font-size: 23px;
     font-weight: 300;
-    line-height: 40px;
     margin-bottom: 30px;
     color: #cecccc;
+    font-size: 30px;
+    line-height: 40px;
   }
   
   .btn{

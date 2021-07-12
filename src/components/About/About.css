@@ -1,6 +1,5 @@
 .about__main{
     background-color: #232339;
-    color: white;
 }
 
 .about__img img{
@@ -11,8 +10,33 @@
     margin-bottom: 70px;
   }
 
-.about__text{
+.about__text h1{
     margin-top: 30%;
-    /* margin-bottom: 70px; */
-    /* justify-content: center; */
+    color: white;
+    margin-bottom: 20px;
+    font-size: 56px;
+    font-weight: 400;
 }
+
+.about__text p{
+    color: rgb(180, 178, 178);
+}
+
+.skill__details {
+    font-size: 21px;
+}
+
+.skill__points{
+    font-size: 19px;
+}
+
+/* skill icons */
+.skill__icons{
+    color: white;
+}
+
+.skill__ul{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 10px;
+  }
