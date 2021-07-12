@@ -23,7 +23,7 @@
     width: 100%;
     height: 100vh;
     color: white;
-    margin-top: 45%;
+    margin-top: 35%;
   }
 
   .header__ul{
@@ -43,17 +43,22 @@
     margin: 0 15px;
   }
 
+  .header__ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
   .header__ul li:first-child{
     margin-left: 0px;
   }
   
-  .header__section h1{
+  .header__content h1{
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   
-  .header__section p{
+  .header__content p{
     font-size: 26px;
     font-weight: 300;
     line-height: 40px;
