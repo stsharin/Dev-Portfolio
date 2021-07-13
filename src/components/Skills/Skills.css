@@ -1,4 +1,6 @@
 .about__main{
+    width: 100%;
+    height: 100vh;
     background-color: #232339;
 }
 
@@ -6,8 +8,8 @@
     height: auto;
     width: 100%;
     padding: 0 30px;
-    margin-top: 90px;
-    margin-bottom: 70px;
+    margin-top: 29%;
+    /* margin-bottom: 30%; */
   }
 
 .about__text h1{
@@ -20,6 +22,7 @@
 
 .about__text p{
     color: rgb(180, 178, 178);
+    line-height: 23px;
 }
 
 .skill__details {
@@ -40,3 +43,7 @@
     display: flex;
     margin-bottom: 10px;
   }
+
+.skill__text{
+    margin-bottom: 30%;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Skills.css';
-import { FcFlashOn, FcServices } from "react-icons/fc";
-import { DiHtml5 } from "react-icons/di";
+import { FcFlashOn } from "react-icons/fc";
+import { FaHtml5 } from "react-icons/fa";
 
 const Skills = () => {
 
@@ -27,22 +27,24 @@ const Skills = () => {
                         <div className="col-md-6">
                             <div className="about__text">
                                 <h1>{description.title}</h1>
-                                <div className="skill__icons">
+                                {/* <div className="skill__icons">
                                     <ul className="skill__ul">
                                         <li>
-                                            <div className="dev-icon"><DiHtml5 /></div>
+                                            <div className="dev-icon"><FaHtml5 /></div>
                                             <p>html-5</p>
                                         </li>
                                         <li>
-                                            <DiHtml5 />
+                                            <FaHtml5/>
                                             <p>html-5</p>
                                         </li>
                                     </ul>
+                                </div> */}
+                                <div className="skill__text">
+                                    <p className="skill__details">{description.details}</p>
+                                    <p className="skill__points"><FcFlashOn /> {description.one}</p>
+                                    <p className="skill__points"><FcFlashOn /> {description.two}</p>
+                                    <p className="skill__points"><FcFlashOn /> {description.three}</p>
                                 </div>
-                                <p className="skill__details">{description.details}</p>
-                                <p className="skill__points"><FcServices /> {description.one}</p>
-                                <p className="skill__points"><FcServices /> {description.two}</p>
-                                <p className="skill__points"><FcServices /> {description.three}</p>
                             </div>
                         </div>
                     </div>

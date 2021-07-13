@@ -1,0 +1,18 @@
+.proficiency__section{
+    width: 100%;
+    height: 70vh;
+    background-color: #232339;
+    /* background-color: #272740; */
+}
+.skill__bar{
+    background-color: #aaa5ff;
+}
+.prof__heading{
+    font-size: 56px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.proficiency{
+    font-size: 19px;
+    line-height: 3.5vw;
+}
