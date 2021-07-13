@@ -22,7 +22,7 @@ const Navbar = () => {
                             <a className="nav-link active" aria-current="page" href="#education">Education</a>
                         </li>
                         <li className="nav-item me-5">
-                            <a className="nav-link active" aria-current="page" href="#">Work Experience</a>
+                            <a className="nav-link active" aria-current="page" href="#experience">Work Experiences</a>
                         </li>
                         <li className="nav-item me-5">
                             <a className="nav-link active" aria-current="page" href="#">Projects</a>
