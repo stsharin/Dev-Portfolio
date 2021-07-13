@@ -6,7 +6,7 @@ const Proficiency = () => {
         <div className="proficiency__section">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-7" style={{ color: 'white' }}>
+                    <div className="col-md-7">
                         <h1 className="prof__heading">Proficiency</h1>
                         <div className="proficiency">
                             <p>Frontend Development</p>
@@ -24,7 +24,9 @@ const Proficiency = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        hi
+                        <div className="proficiency__img">
+                            <img src="https://i.ibb.co/mB3WCWY/232339.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

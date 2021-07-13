@@ -19,12 +19,12 @@ const Skills = () => {
             <div className="container">
                 <div className="about__section">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-5">
                             <div className="about__img">
                                 <img src={description.image} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <div className="about__text">
                                 <h1>{description.title}</h1>
                                 {/* <div className="skill__icons">

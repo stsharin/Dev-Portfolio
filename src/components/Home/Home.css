@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background: url('/src/images/bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +102,7 @@
   .btn{
     outline: none;
     border: none;
-    color: rgb(192, 189, 189);
+    color: rgb(226, 226, 226);
     text-decoration: none;
     margin-top: 20px;
   }
@@ -110,7 +110,7 @@
   .btn-smart{
     border: 2px solid #6e42c6;
     padding: 13px 20px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
   }
   
   .play{
@@ -122,5 +122,5 @@
     height: auto;
     width: 100%;
     padding: 0 30px;
-    margin-top: 150px;
+    margin-top: 50%;
   }

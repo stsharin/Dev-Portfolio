@@ -8,11 +8,21 @@
     background-color: #aaa5ff;
 }
 .prof__heading{
+    color: white;
     font-size: 56px;
     font-weight: 400;
     margin-top: 25px;
 }
 .proficiency{
+    color: rgb(214, 214, 214);
     font-size: 19px;
     line-height: 3.5vw;
+}
+
+.proficiency__img img{
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+    margin-top: 70px;
+    margin-left: 50px;
 }

@@ -7,7 +7,7 @@ const Home = () => {
 
     const [description] = useState(
         {
-            title: "HELLO I'M",
+            title: "Hi all, I'm",
             name: "SARABAN TASNIM SHARIN",
             text: "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
             image: "https://i.ibb.co/yQTV6PS/photo.png"
@@ -19,10 +19,10 @@ const Home = () => {
             <div className="header">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <div className="header__content">
-                                <h1>{description.title}</h1>
-                                <h1 style={{color: '#997AD7'}}>{description.name}</h1>
+                                <h1>{description.title} <span style={{color: '#997AD7'}}>{description.name}</span> </h1>
+                                {/* <h1 style={{color: '#997AD7'}}>{description.name}</h1> */}
                                 <p>{description.text}</p>
                                 <div className="header__section">
                                     <ul className="header__ul">
@@ -41,7 +41,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-5">
                             <div className="banner__img">
                                 <img src={description.image} alt="me" />
                             </div>
