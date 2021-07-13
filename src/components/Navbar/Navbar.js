@@ -19,7 +19,7 @@ const Navbar = () => {
                             <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item me-5">
-                            <a className="nav-link active" aria-current="page" href="#">Education</a>
+                            <a className="nav-link active" aria-current="page" href="#education">Education</a>
                         </li>
                         <li className="nav-item me-5">
                             <a className="nav-link active" aria-current="page" href="#">Work Experience</a>
