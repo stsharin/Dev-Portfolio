@@ -26,7 +26,7 @@ const Education = () => {
                         <div className="container mb-3">
                             <div className="row">
                                 <div className="col-md-2 uni__logo">
-                                    {/* <img src="https://i.ibb.co/0YZWDHL/585d5f202586b8cd0537e73f44b37780.png" alt="" /> */}
+                                    <img src="https://i.ibb.co/2cR0vzW/edu-logo-1.png" alt="" />
                                 </div>
                                 <div className="col-md-8 uni__details">
                                     <h5>Nawabganj Government College</h5>
@@ -40,7 +40,7 @@ const Education = () => {
                         <div className="container mb-3">
                             <div className="row">
                                 <div className="col-md-2 uni__logo">
-                                    {/* <img src="https://i.ibb.co/0YZWDHL/585d5f202586b8cd0537e73f44b37780.png" alt="" /> */}
+                                    <img src="https://i.ibb.co/2cR0vzW/edu-logo-1.png" alt="" />
                                 </div>
                                 <div className="col-md-8 uni__details">
                                     <h5>Nawabganj Government Girls' High School</h5>
