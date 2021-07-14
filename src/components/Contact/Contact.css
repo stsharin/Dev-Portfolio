@@ -1,0 +1,41 @@
+.contact__section{
+    width: 100%;
+    height: 93vh;
+    background-color: #232339;
+    color: white;
+}
+.contact_img img{
+    width: 100%;
+    height: auto;
+    background-color: #997AD7;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 120px;
+}
+.contact__details h5{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-size: 53px;
+    font-weight: 400;
+}
+.discuss{
+    font-size: 19px;
+    color: rgb(165, 161, 161);
+}
+.contact__details h6{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.address{
+    font-size: 19px;
+    line-height: 45px;
+}
+
+.cn__footer{
+    margin-top: 70px;
+}
+.cn__footer p{
+    font-size: 18px;
+    line-height: 23px;
+}

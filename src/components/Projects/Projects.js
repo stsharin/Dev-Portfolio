@@ -3,7 +3,6 @@ import './Projects.css';
 import { BiCircle } from "react-icons/bi";
 import { FcStart } from "react-icons/fc";
 import { AiFillGithub } from "react-icons/ai";
-import MoreProjects from '../MoreProjects/MoreProjects';
 
 const Projects = () => {
     return (
@@ -42,7 +41,6 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <MoreProjects/>
         </div>
     );
 };

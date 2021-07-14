@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import './Home.css';
-import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaGithub, FaArrowRight } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
 
@@ -22,7 +22,6 @@ const Home = () => {
                         <div className="col-md-7">
                             <div className="header__content">
                                 <h1>{description.title} <span style={{color: '#997AD7'}}>{description.name}</span> </h1>
-                                {/* <h1 style={{color: '#997AD7'}}>{description.name}</h1> */}
                                 <p>{description.text}</p>
                                 <div className="header__section">
                                     <ul className="header__ul">
@@ -35,7 +34,7 @@ const Home = () => {
                                     <div className="header__buttons">
                                         <a href="/" className="btn btn-smart">My Resume</a>
                                         &nbsp; &nbsp; &nbsp;
-                                        <a href="/" className="btn btn-smart">Contact Me</a>
+                                        <a href="#contact" className="btn btn-smart">Contact Me</a>
                                     </div>
 
                                 </div>
