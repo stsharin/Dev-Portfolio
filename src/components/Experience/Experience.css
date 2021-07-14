@@ -15,6 +15,10 @@
 .exp__card{
     border: 1px solid rgb(153, 152, 152);
     border-radius: 5px;
+    transition: box-shadow .3s;
+}
+.exp__card:hover{
+    box-shadow: 0 0 11px rgba(207, 206, 206, 0.856); 
 }
 
 .card__banner__one{
