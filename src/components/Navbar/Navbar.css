@@ -9,3 +9,11 @@
     height: 70px;
     margin-left: 150px;
 }
+.nav__btn li a{
+    font-size: 19px;
+    line-height: 23px;
+    padding: 15px 50px;
+}
+.nav__btn li a:hover {
+    background-color: #6e42c6;
+}

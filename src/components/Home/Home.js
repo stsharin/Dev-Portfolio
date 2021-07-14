@@ -32,9 +32,9 @@ const Home = () => {
                                     </ul>
 
                                     <div className="header__buttons">
-                                        <a href="/" className="btn btn-smart">My Resume</a>
+                                        <a href="/" className="btn btn-smart">Contact Me</a>
                                         &nbsp; &nbsp; &nbsp;
-                                        <a href="#contact" className="btn btn-smart">Contact Me</a>
+                                        <a href="#contact" className="btn btn-smart">See My Resume</a>
                                     </div>
 
                                 </div>

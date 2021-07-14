@@ -33,6 +33,7 @@
   }
 
   #facebook{
+    font-size: 23px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -43,8 +44,12 @@
     margin-left: 0;
     background-color: #064291;
   }
+  #facebook:hover{
+    background-color: black;
+  }
 
   #insta{
+    font-size: 23px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -54,8 +59,12 @@
     margin: 0 15px;
     background-color: rgb(207, 42, 119);
   }
+  #insta:hover{
+    background-color: black;
+  }
 
   #linkedIn{
+    font-size: 23px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -64,6 +73,9 @@
     justify-content: center; 
     margin: 0 15px;
     background-color: rgb(42, 103, 153);
+  }
+  #linkedIn:hover{
+    background-color: black;
   }
 
   #github{
@@ -74,7 +86,11 @@
     align-items: center; 
     justify-content: center; 
     margin: 0 15px;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(58, 58, 58);
+    font-size: 23px;
+  }
+  #github:hover{
+    background-color: black;
   }
 
   .header__ul li a{
@@ -108,9 +124,17 @@
   }
   
   .btn-smart{
-    border: 2px solid #6e42c6;
-    padding: 13px 20px;
-    /* border-radius: 50px; */
+    padding: 13px 22px;
+    background-color: #6e42c6;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #6e42c6;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .btn-smart:hover{
+    background-color: white;
+    color: #6e42c6;
   }
   
   .play{
